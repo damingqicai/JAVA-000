@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2020-10-18T13:48:36.948Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="6fAA2lSmMdQ-gyacShY2" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-18T14:03:18.661Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="yF4XkPZFjoZ22WENRnsR" version="13.8.0" type="github">
   <diagram id="dPoFNVqdAXsXte85XX-N" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="aDoyHsUbz5vajL_5sXkr-1" value="&lt;div&gt;&lt;b&gt;作业：3、画一张图，展示 Xmx、Xms、Xmn、Meta、DirectMemory、Xss 这些内存参数的&lt;span&gt;关系。&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;首先列出以上各属性的含义&lt;/div&gt;&lt;div&gt;Xmx:最大堆大小&lt;/div&gt;&lt;div&gt;Xms:初始堆大小&lt;/div&gt;&lt;div&gt;Xmn:新生代大小&lt;/div&gt;&lt;div&gt;Meta:MetaspaceSize的简称，-XX:MetaspaceSize、-XX:MaxMetaspaceSize:分别设置元空间最小大小与最大大小&lt;/div&gt;&lt;div&gt;DirectMemory:堆外内存&lt;/div&gt;&lt;div&gt;Xss:栈内存大小&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" width="660" height="160" as="geometry" />
+          <mxGeometry x="90" y="650" width="660" height="160" as="geometry" />
         </mxCell>
         <mxCell id="aDoyHsUbz5vajL_5sXkr-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="88" y="180" width="590" height="290" as="geometry" />
+          <mxGeometry x="88" y="180" width="752" height="300" as="geometry" />
         </mxCell>
         <mxCell id="aDoyHsUbz5vajL_5sXkr-3" value="栈 Stack" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE4CF;" vertex="1" parent="1">
           <mxGeometry x="120" y="200" width="120" height="60" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry x="310" y="300" width="100" height="59" as="geometry" />
         </mxCell>
         <mxCell id="aDoyHsUbz5vajL_5sXkr-9" value="元数据区&lt;br&gt;Metaspace" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D1E1EE;" vertex="1" parent="1">
-          <mxGeometry x="420" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="417" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aDoyHsUbz5vajL_5sXkr-10" value="新生儿&lt;br&gt;Eden-Space" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEBC9;" vertex="1" parent="1">
           <mxGeometry x="120" y="400" width="110" height="60" as="geometry" />
@@ -65,6 +65,54 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="484" y="362" as="sourcePoint" />
             <mxPoint x="483.57142857142867" y="402" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-31" value="&lt;div style=&quot;text-align: left&quot;&gt;-Xmx:指定堆最大堆大小&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;-Xms:初始堆大小&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9BCB55;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-34" value="" style="endArrow=classic;html=1;strokeColor=#CCE2EE;fillColor=#CCE2EE;exitX=0.417;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aDoyHsUbz5vajL_5sXkr-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="150" as="sourcePoint" />
+            <mxPoint x="338" y="196" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-35" value="&lt;span style=&quot;text-align: left&quot;&gt;-Xmn:新生代大小&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9BCB55;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="110" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-37" value="" style="endArrow=classic;html=1;strokeColor=#CCE2EE;fillColor=#CCE2EE;" edge="1" parent="1" source="aDoyHsUbz5vajL_5sXkr-10" target="aDoyHsUbz5vajL_5sXkr-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="480" as="sourcePoint" />
+            <mxPoint x="200" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-38" value="&lt;span style=&quot;text-align: left&quot;&gt;-XX:MetaspaceSize：元数据最小空间大小&lt;br&gt;-XX:MaxMetaspaceSize：元数据最大空间大小&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9BCB55;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="380" y="500" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-39" value="" style="endArrow=classic;html=1;strokeColor=#CCE2EE;fillColor=#CCE2EE;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.431;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aDoyHsUbz5vajL_5sXkr-9" target="aDoyHsUbz5vajL_5sXkr-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="400" as="sourcePoint" />
+            <mxPoint x="560" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-40" value="-Xss:设置每个线程可使用的内存大小，即栈的大小" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="110" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-42" value="" style="endArrow=none;html=1;strokeColor=#CCE2EE;fillColor=#CCE2EE;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.417;exitY=0.167;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aDoyHsUbz5vajL_5sXkr-3" target="aDoyHsUbz5vajL_5sXkr-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="190" as="sourcePoint" />
+            <mxPoint x="170" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-43" value="堆外内存" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="690" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-44" value="MaxDirectMemorySize=Size系统可以使用的最大堆外内存" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="655" y="50" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-45" value="" style="endArrow=none;html=1;strokeColor=#CCE2EE;fillColor=#CCE2EE;exitX=0.88;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aDoyHsUbz5vajL_5sXkr-2" target="aDoyHsUbz5vajL_5sXkr-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="160" as="sourcePoint" />
+            <mxPoint x="748" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

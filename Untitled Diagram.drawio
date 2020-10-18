@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2020-10-18T13:11:32.988Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" version="13.8.0" etag="4LyNBvkiL2qfl_wRmKfu" type="github"><diagram id="dPoFNVqdAXsXte85XX-N">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-18T13:41:24.272Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="BFpxHdExfCehkDbUShqr" version="13.8.0" type="github">
+  <diagram id="dPoFNVqdAXsXte85XX-N" name="Page-1">
+    <mxGraphModel dx="832" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-1" value="&lt;div&gt;&lt;b&gt;作业：3、画一张图，展示 Xmx、Xms、Xmn、Meta、DirectMemory、Xss 这些内存参数的&lt;span&gt;关系。&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;首先列出以上各属性的含义&lt;/div&gt;&lt;div&gt;Xmx:最大堆大小&lt;/div&gt;&lt;div&gt;Xms:初始堆大小&lt;/div&gt;&lt;div&gt;Xmn:新生代大小&lt;/div&gt;&lt;div&gt;Meta:MetaspaceSize的简称，-XX:MetaspaceSize、-XX:MaxMetaspaceSize:分别设置元空间最小大小与最大大小&lt;/div&gt;&lt;div&gt;DirectMemory:堆外内存&lt;/div&gt;&lt;div&gt;Xss:栈内存大小&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" width="660" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="180" width="590" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-3" value="栈 Stack" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE4CF;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-4" value="堆&lt;br&gt;Heap" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCDDED;" vertex="1" parent="1">
+          <mxGeometry x="270" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-5" value="非堆&lt;br&gt;Non-Heap" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8A847;" vertex="1" parent="1">
+          <mxGeometry x="420" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-6" value="JVM自身" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8CC2A8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-7" value="年轻代&lt;br&gt;Youg-gen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEBCA;" vertex="1" parent="1">
+          <mxGeometry x="120" y="300" width="190" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-8" value="老年代&lt;br&gt;Old-Gen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66A1CB;" vertex="1" parent="1">
+          <mxGeometry x="310" y="300" width="100" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-9" value="元数据区&lt;br&gt;Metaspace" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D1E1EE;" vertex="1" parent="1">
+          <mxGeometry x="420" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-10" value="新生儿&lt;br&gt;Eden-Space" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEBC9;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-11" value="S0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DFEDE6;" vertex="1" parent="1">
+          <mxGeometry x="230" y="400" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-12" value="S1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C6E0D3;" vertex="1" parent="1">
+          <mxGeometry x="270" y="400" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-13" value="常量池、方法区" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDB25F;" vertex="1" parent="1">
+          <mxGeometry x="420" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-15" value="Compressed&lt;br&gt;Class Space" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9BCB55;fillColor=#EDC3BD;" vertex="1" parent="1">
+          <mxGeometry x="520" y="305" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-16" value="Code&lt;br&gt;cache" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9BCB55;fillColor=#E3CBED;" vertex="1" parent="1">
+          <mxGeometry x="590" y="300" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-17" value="" style="endArrow=classic;html=1;entryX=0.583;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="aDoyHsUbz5vajL_5sXkr-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="360" as="sourcePoint" />
+            <mxPoint x="540" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aDoyHsUbz5vajL_5sXkr-19" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.436;entryY=-0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aDoyHsUbz5vajL_5sXkr-7" target="aDoyHsUbz5vajL_5sXkr-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="380" as="sourcePoint" />
+            <mxPoint x="240" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
